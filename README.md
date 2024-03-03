@@ -29,7 +29,7 @@ Food for conceptual thoughts:
 **Fig.1** Cichlid diversity **(a)** Time-calibrated phylogenetic relationships of Lake Tanganyika cichlids ([Ronco et al. 2020](https://doi.org/10.1016/j.jglr.2019.05.009)) **(b)** Trait axes of divergence in cichlid fishes ([Santos et al. 2023](https://doi.org/10.1186/s13227-022-00205-5)) **(c)** Timeline of bursts of morphological evolution (modified from [Ronco and Salzburger 2021](https://doi.org/10.1016/j.zool.2021.125925)). CC BY-NC-SA 4.0
 
 <br/>
-**Literature:**
+#### Literature:
 
 - African cichlid diversity in the genomics era: Salzburger (2018) *Understanding explosive diversification through cichlid fish genomics*. Nat Rev Genet 19, 705-717 ([https://doi.org/10.1038/s41576-018-0043-9](https://doi.org/10.1038/s41576-018-0043-9))*
 
@@ -152,13 +152,13 @@ The subsequent Sanger sequencing follows a similar principle as the PCR and gel 
 <a name="practical-steps"></a>
 ## Practical steps
 
-###Primer design and ordering (Week 1)
+### Primer design and ordering (Week 1)
 
-####Data (distributed on hard drive)
+#### Data (distributed on hard drive)
 - [VCF file](https://en.wikipedia.org/wiki/Variant_Call_Format) with chromosome (CHR) and position (POS) information of presumable DNMs as well as alleles (REF and ALT) and genotypes per sample
 - [FASTA file](https://en.wikipedia.org/wiki/FASTA_format) with reference assembly
 
-####Required software/tools
+#### Required software/tools
 - Text editor (*e.g.*, [Sublime](https://www.sublimetext.com/) or [NotePad](https://notepad-plus-plus.org/))
 - Online tools: [NCBI primer blast](https://www.ncbi.nlm.nih.gov/tools/primer-blast/) or [Primer3](https://primer3.ut.ee/) / [Primer3Plus](https://www.primer3plus.com/index.html)
 
@@ -170,7 +170,7 @@ Optional software/tools:
 - [BEDtools](https://bedtools.readthedocs.io/en/latest/) (only linux/mac)
 
 
-####Extract sequences of interest (sequences with DNMs)
+#### Extract sequences of interest (sequences with DNMs)
 1) Extract the chromosomes (scaffolds/contigs) and positions of DNMs from the VCF file and identify the genotypes of the samples. Use either the text editor or command line tools:
 `for i in *.vcf; do bcftools query ${i} -f '%CHROM\t%POS\t%REF\t%ALT[\t%SAMPLE=%GT]\n' > ${i%.gtpp.hf.gtf.mendel.ADp.AB05.mut.bcfcall.DP.ADp.AB05.AC1.ADB.vcf}.dnms.txt; done`.   
 2) Extract the lengths of scaffolds with DNMs from the VCF file header. Use either the text editor or command line tools:
@@ -182,7 +182,7 @@ Optional software/tools:
 6) Collect all information in a table.    
 
 
-####How to design primers
+#### How to design primers
 
 Based on the extracted sequence information, design two primer pairs per site of interest (the DNMs). The primer pairs should amplify a fragment of about 500–800 bp and have the following characteristics: 
 
@@ -205,26 +205,25 @@ Primer design tools such as [NCBI primer blast](https://www.ncbi.nlm.nih.gov/too
 We will order the primers from a commercial provider where they are chemically synthesized. Take care that both sequences are ordered in the 5' to 3' direction. To get the reverse complement sequence, [this tool](https://www.bioinformatics.org/sms/rev_comp.html) can be used. Once the primers arrive, they are usually lyophilized (freeze-dried) and need to be resuspended in molecular grade H<sub>2</sub>O or TE-buffer to a stock solution of 100 µM. Before opening the tubes, centrifuge them briefly to make sure all lyophilized primer is at the bottom (and not at the lid!). Then prepare the master stock solution according to the instructions shipped with the primers. From the stock solution, make a 10 µM working-stock (10 µl stock + 90 µl molecular grade H<sub>2</sub>O).
 
 
-###PCR (Week 2)
+### PCR (Week 2)
 *TBD*
 
-####Required software/tools
-Geneious or MEGA for reading chromatograms 
+#### Required software/tools
 
-####Pipetting scheme
+#### Pipetting scheme
 
-####Reactions and controls
+#### Reactions and controls
 
-####Master mix
+#### Master mix
 
-####PCR cycle
+#### PCR cycle
 
-####Agarose gel
+#### Agarose gel
 
-####PCR clean-up
+#### PCR clean-up
 
 
-###Sanger sequencing, sequence analyses, calculation of false positive rates (Week 3)
+### Sanger sequencing, sequence analyses, calculation of false positive rates (Week 3)
 
 *TBD*
 
