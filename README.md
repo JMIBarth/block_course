@@ -28,7 +28,6 @@ Food for conceptual thoughts:
 <kbd>![](./img/fig1.webp)</kbd>
 **Fig.1** Cichlid diversity **(a)** Time-calibrated phylogenetic relationships of Lake Tanganyika cichlids ([Ronco et al. 2020](https://doi.org/10.1016/j.jglr.2019.05.009)) **(b)** Trait axes of divergence in cichlid fishes ([Santos et al. 2023](https://doi.org/10.1186/s13227-022-00205-5)) **(c)** Timeline of bursts of morphological evolution (modified from [Ronco and Salzburger 2021](https://doi.org/10.1016/j.zool.2021.125925)). CC BY-NC-SA 4.0
 
-<br/>
 #### Literature:
 
 - African cichlid diversity in the genomics era: Salzburger (2018) *Understanding explosive diversification through cichlid fish genomics*. Nat Rev Genet 19, 705-717 ([https://doi.org/10.1038/s41576-018-0043-9](https://doi.org/10.1038/s41576-018-0043-9))*
