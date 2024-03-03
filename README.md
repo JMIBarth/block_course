@@ -28,7 +28,7 @@ Food for conceptual thoughts:
 <kbd>![](./img/fig1.webp)</kbd>
 **Fig.1** Cichlid diversity **(a)** Time-calibrated phylogenetic relationships of Lake Tanganyika cichlids ([Ronco et al. 2020](https://doi.org/10.1016/j.jglr.2019.05.009)) **(b)** Trait axes of divergence in cichlid fishes ([Santos et al. 2023](https://doi.org/10.1186/s13227-022-00205-5)) **(c)** Timeline of bursts of morphological evolution (modified from [Ronco and Salzburger 2021](https://doi.org/10.1016/j.zool.2021.125925)). CC BY-NC-SA 4.0
 
-#### Literature:
+**Literature:**
 
 - African cichlid diversity in the genomics era: Salzburger (2018) *Understanding explosive diversification through cichlid fish genomics*. Nat Rev Genet 19, 705-717 ([https://doi.org/10.1038/s41576-018-0043-9](https://doi.org/10.1038/s41576-018-0043-9))*
 
@@ -39,7 +39,6 @@ Food for conceptual thoughts:
 - Diversification of Lake Tanganyika cichlid species: Ronco et al. (2020) *Drivers and dynamics of a massive adaptive radiation in cichlid fishes*. Nature 589, 76-81 ([https://doi.org/10.1038/s41586-020-2930-4](https://doi.org/10.1038/s41586-020-2930-4))
 
 
-<br/>
 ### Biodiversity, genetic diversity, and conservation
 
 In his seminal work 'On the origin of species', Charles Darwin elucidate the process by which Earth’s ‘endless forms most beautiful and most wonderful have been, and are being evolved’. More than a century later, the identification of the underlying factors influencing biodiversity is still a challenge. Biodiversity is tightly interlinked with genetic diversity, that is, the variation within a single species. Particularly in situations of environmental disturbances – including man-made ones such as climate change – the resilience of ecosystems depends on the ability of species to rapidly adapt to altered conditions, which is in turn facilitated by genetic diversity. Consequently, assessing genetic diversity is a key aspect in the management and conservation of biodiversity today.
@@ -52,7 +51,7 @@ Food for conceptual thoughts:
 <kbd>![](./img/fig2.webp)</kbd>
 **Fig.2** Interconnections among biodiversity, genetic diversity, and conservation **(a)** Application of genomics in conservation and ecosystem service management is successful, but limited through lack of communication ([Heuertz et al. 2023](https://doi.org/10.1016/j.biocon.2022.109883)) **(b)** Determinants of genetic diversity ([Ellegren and Galtier 2016](https://doi.org/10.1038/nrg.2016.58](https://doi.org/10.1038/nrg.2016.58)). CC BY-NC-SA 4.0
 
-<br/>
+
 **Literature:**
 
 - A review about determinants of genetic diversity: Ellegren and Galtier (2016) *Determinants of genetic diversity*. Nat Rev Genet 17, 422-433 ([https://doi.org/10.1038/nrg.2016.58](https://doi.org/10.1038/nrg.2016.58))*
@@ -64,7 +63,7 @@ Food for conceptual thoughts:
 - Genetic diversity in politics: Hoban et al. (2023) *Genetic diversity goals and targets have improved, but remain insufficient for clear implementation of the post‑2020 global biodiversity framework*. Conserv Genet 24, 181-191 ([https://doi.org/10.1007/s10592-022-01492-0](https://doi.org/10.1007/s10592-022-01492-0))
 
 
-<br/>
+
 ### Germline *de novo* mutations (DNMs)
 
 Germline *de novo* mutations (DNMs) are the ultimate source of novel genetic variation. According to the neutral theory of molecular evolution, both the rate of new mutations and the population size positively influence genetic diversity. This is because most DNMs are assumed to be neutral and a larger population size reduces the effects of genetic drift. Many DNMs result from errors during DNA replication. In humans, the contribution of DNMs from the father is therefore higher than from the mother and increases with age. Yet, proofreading subunits and mismatch repair complexes can lower the polymerase error rate. Further sources of DNMs are exogenous or endogenous mutagens, such as UV light. Germline DNMs are only those mutations, that are present for the first time in a germ cell (sperm or egg) and are thus inherited to all cells of the offspring. In contrast, somatic mutations arise later in development, are restricted to somatic cells and tissues and are not passed on to offspring. Although here we focus on germline single-nucleotide mutations – constituting the largest fraction of DNMs – also indels (insertions/deletions) or copy-number variants can originate *de novo*. Generally, the DNM rate is very small, with about 1.2 x 10<sup>-8</sup> mutations per bp per generation in humans. If multiplied with the human genome size (~ 3.055 x 10<sup>9</sup> bp), we can estimate the number of new mutations in each child to be about 73.
@@ -78,7 +77,7 @@ Food for conceptual thoughts:
 <kbd>![](./img/fig3.webp)</kbd>
 **Fig.3** De novo mutations **(a)** The drift-barrier hypothesis for mutation rate proposes that natural selection pushes towards molecular perfection, while random genetic drift works against it. Therefore, large populations are predicted to have lower DNM rates than smaller populations. However, a "perfect" mutation rate (i.e., zero) can never be reached as the lack of DNMs would imply no variation for selection to act on ([Lynch et al. 2016](https://doi.org/10.1038/nrg.2016.104)). **(b)** Germ cell replication differences in human females versus males explains bias in DNM contribution to offspring ([Wood and Goriely, 2022](https://doi.org/10.1016/j.fertnstert.2022.10.017)). **(c)** Overview of the DNM rates across vertebrates estimated using trio sequencing showed that fishes tend to have a lower DNM rate compared to mammals, birds, and reptiles ([Bergeron et al. 2023](https://doi.org/10.1038/s41586-023-05752-y)). CC BY-SA 4.0
 
-<br/>
+
 **Literature:**
 
 - Lynch et al. (2016) *Genetic drift, selection and the evolution of the mutation rate*. Nat Rev Genet 17, 704–714 ([https://doi.org/10.1038/nrg.2016.104](https://doi.org/10.1038/nrg.2016.104))*
@@ -90,7 +89,7 @@ Food for conceptual thoughts:
 - Bergeron et al. (2023) *Evolution of the germline mutation rate across vertebrates*. Nature 615, 285–291 ([https://doi.org/10.1038/s41586-023-05752-y](https://doi.org/10.1038/s41586-023-05752-y))
 
 
-<br/>
+
 ### Parent-offspring sequencing for detection of DNMs
 
 Since the completion of the Human Genome Project in 2003, where the first nearly complete (92%) sequence of the human genome was generated using the Sanger sequencing method (see below), new technologies for sequencing have been developed and hence named "next-generation" sequencing (NGS) methods. The new methods lowered the costs and efficiency drastically and many more samples can now be sequenced, yet, the error rate is higher and reads are shorter (about 0.2% error rate and 150 bp length for short-read Illumina data). The very low number of DNM per generation and the high error rate of NGS methods have long hindered the application of parent-offspring sequencing for the detection of DNMs in non-model organisms. In parent-offspring (PO, also termed 'trio' or 'pedigree') sequencing, the genomes of the parents (mother and father) and one or more offspring are sequenced. Since the offspring's DNA is inherited from its parents, any change to its sequence must constitute a DNM. To detect DNMs in sequence data and differentiate them from population variants, sequencing errors, mapping errors, or somatic mutations, a stringent multi-step bioinformatic filtering pipeline is usually applied. However, these filters can be too liberal and allow the detection of false DNM (false-positive sites), or too stringent and also discard true DNM (false-negative sites). Knowing about the rates of false positive and negative detections is crucial for the interpretation of the estimated DNM rate. To identify how many true mutations are excluded by the filtering pipeline, synthetic 'perfect mutations' can be simulated and detected. The false negative rate (FNR) can then be calculated as $FNR=FN/(TP+FN)$,  where FN is the number of false negatives and TP is the number of true positives. The validation of DNMs to calculate the false-positive rate (or false-detection rate, FDR) can only be achieved through polymerase chain reaction (PCR) amplification followed by Sanger sequencing. The FDR is then: $FDR=FP/(TP+FP)$ with FP being the candidate DNMs successfully amplified but failing the Sanger validation and TP being the DNMs validated by Sanger sequencing.
@@ -98,12 +97,12 @@ Since the completion of the Human Genome Project in 2003, where the first nearly
 <kbd>![](./img/fig4.webp)</kbd>
 **Fig.4** Detection of *de novo* mutations (DNMs) using whole-genome sequencing (WGS) data. **(a)** A parent-offspring ('trio') is sampled and their genomes sequenced. **(b)** WGS reads (gray bars) are aligned to a reference assembly. DNMs are those mutations that violate Mendelian inheritance, *i.e.*, where the parents are homozygous for the reference allele, but the offspring is heterozygous with about half of the reads showing a variant not present in the parents (indicated by the yellow star). CC BY-SA 4.0
 
-<br/>
+
 **Literature:**
 
 - Bergeron et al. (2022) *The Mutationathon highlights the importance of reaching standardization in estimates of pedigree-based germline mutation rates*. eLife 11, e73577 ([https://doi.org/10.7554/eLife.73577](https://doi.org/10.7554/eLife.73577))
 
-<br/>
+
 <a name="the-project"></a>
 ## The project: validation of DNMs using Sanger sequencing
 
@@ -227,7 +226,7 @@ We will order the primers from a commercial provider where they are chemically s
 *TBD*
 
 
-<br/><br/><br/><br/>
+
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 This work is licensed under a
