@@ -19,14 +19,13 @@ Biodiversity, representing all life forms on Earth and providing essential resou
 
 Lake Tanganyika, one of the oldest freshwater lakes in the world (~10 million years old), and  — by means of water volume — the largest of the African Great Lakes, harbors the phenotypically, ecologically, and behaviorally most diverse cichlid fish assemblage in Africa. Often cited as the most diverse of all adaptive radiations this species flock is a highly interesting system to study evolutionary questions.
 
+<kbd>![](./img/fig1.webp)</kbd>
+**Fig.1** Cichlid diversity **(a)** Time-calibrated phylogenetic relationships of Lake Tanganyika cichlids ([Ronco et al. 2020](https://doi.org/10.1016/j.jglr.2019.05.009)) **(b)** Trait axes of divergence in cichlid fishes ([Santos et al. 2023](https://doi.org/10.1186/s13227-022-00205-5)) **(c)** Timeline of bursts of morphological evolution (modified from [Ronco and Salzburger 2021](https://doi.org/10.1016/j.zool.2021.125925)). CC BY-NC-SA 4.0
+
 Food for conceptual thoughts: 
  
 - What is an adaptive radiation, what are examples of adaptive radiations, how do they differ and what do they have in common?
 - Why are some clades across the Tree of Life extraordinary species-rich, while others seem to remain in morphological stasis and have low diversity?
-
-
-<kbd>![](./img/fig1.webp)</kbd>
-**Fig.1** Cichlid diversity **(a)** Time-calibrated phylogenetic relationships of Lake Tanganyika cichlids ([Ronco et al. 2020](https://doi.org/10.1016/j.jglr.2019.05.009)) **(b)** Trait axes of divergence in cichlid fishes ([Santos et al. 2023](https://doi.org/10.1186/s13227-022-00205-5)) **(c)** Timeline of bursts of morphological evolution (modified from [Ronco and Salzburger 2021](https://doi.org/10.1016/j.zool.2021.125925)). CC BY-NC-SA 4.0
 
 **Literature:**
 
@@ -43,14 +42,13 @@ Food for conceptual thoughts:
 
 In his seminal work 'On the origin of species', Charles Darwin elucidate the process by which Earth’s ‘endless forms most beautiful and most wonderful have been, and are being evolved’. More than a century later, the identification of the underlying factors influencing biodiversity is still a challenge. Biodiversity is tightly interlinked with genetic diversity, that is, the variation within a single species. Particularly in situations of environmental disturbances – including man-made ones such as climate change – the resilience of ecosystems depends on the ability of species to rapidly adapt to altered conditions, which is in turn facilitated by genetic diversity. Consequently, assessing genetic diversity is a key aspect in the management and conservation of biodiversity today.
 
+<kbd>![](./img/fig2.webp)</kbd>
+**Fig.2** Interconnections among biodiversity, genetic diversity, and conservation **(a)** Application of genomics in conservation and ecosystem service management is successful, but limited through lack of communication ([Heuertz et al. 2023](https://doi.org/10.1016/j.biocon.2022.109883)) **(b)** Determinants of genetic diversity ([Ellegren and Galtier 2016](https://doi.org/10.1038/nrg.2016.58](https://doi.org/10.1038/nrg.2016.58))). CC BY-NC-SA 4.0
+
 Food for conceptual thoughts: 
 
 - What are factors that determine species-richness and biodiversity?
 - Is hybridization rather reverting speciation through the merging of two species into one, or does the genetic exchange of genetic diversity promote speciation?
-
-<kbd>![](./img/fig2.webp)</kbd>
-**Fig.2** Interconnections among biodiversity, genetic diversity, and conservation **(a)** Application of genomics in conservation and ecosystem service management is successful, but limited through lack of communication ([Heuertz et al. 2023](https://doi.org/10.1016/j.biocon.2022.109883)) **(b)** Determinants of genetic diversity ([Ellegren and Galtier 2016](https://doi.org/10.1038/nrg.2016.58](https://doi.org/10.1038/nrg.2016.58)). CC BY-NC-SA 4.0
-
 
 **Literature:**
 
@@ -58,7 +56,7 @@ Food for conceptual thoughts:
 
 - Genomics for maintaining and improving ecosystem services: Stange et al. (2021) *The importance of genomic variation for biodiversity, ecosystems and people*. Nat Rev Genet 22, 89-105 ([https://doi.org/10.1038/s41576-020-00288-7](https://doi.org/10.1038/s41576-020-00288-7))
 
-- From history to recent developments in Conservation Biology: Willi et al. (2021) *Conservation genetics as a management tool: The five best-supported paradigms to assist the management of threatened species*. Proc Natl Acad Sci USA 119, e2105076119 ([https://doi.org/10.1073/pnas.210507611](https://doi.org/10.1073/pnas.210507611))
+- From history to recent developments in Conservation Biology: Willi et al. (2021) *Conservation genetics as a management tool: The five best-supported paradigms to assist the management of threatened species*. Proc Natl Acad Sci USA 119, e2105076119 ([https://doi.org/10.1073/pnas.2105076119](https://doi.org/10.1073/pnas.2105076119))
 
 - Genetic diversity in politics: Hoban et al. (2023) *Genetic diversity goals and targets have improved, but remain insufficient for clear implementation of the post‑2020 global biodiversity framework*. Conserv Genet 24, 181-191 ([https://doi.org/10.1007/s10592-022-01492-0](https://doi.org/10.1007/s10592-022-01492-0))
 
@@ -68,15 +66,14 @@ Food for conceptual thoughts:
 
 Germline *de novo* mutations (DNMs) are the ultimate source of novel genetic variation. According to the neutral theory of molecular evolution, both the rate of new mutations and the population size positively influence genetic diversity. This is because most DNMs are assumed to be neutral and a larger population size reduces the effects of genetic drift. Many DNMs result from errors during DNA replication. In humans, the contribution of DNMs from the father is therefore higher than from the mother and increases with age. Yet, proofreading subunits and mismatch repair complexes can lower the polymerase error rate. Further sources of DNMs are exogenous or endogenous mutagens, such as UV light. Germline DNMs are only those mutations, that are present for the first time in a germ cell (sperm or egg) and are thus inherited to all cells of the offspring. In contrast, somatic mutations arise later in development, are restricted to somatic cells and tissues and are not passed on to offspring. Although here we focus on germline single-nucleotide mutations – constituting the largest fraction of DNMs – also indels (insertions/deletions) or copy-number variants can originate *de novo*. Generally, the DNM rate is very small, with about 1.2 x 10<sup>-8</sup> mutations per bp per generation in humans. If multiplied with the human genome size (~ 3.055 x 10<sup>9</sup> bp), we can estimate the number of new mutations in each child to be about 73.
 
+<kbd>![](./img/fig3.webp)</kbd>
+**Fig.3** De novo mutations **(a)** The drift-barrier hypothesis for mutation rate proposes that natural selection pushes towards molecular perfection, while random genetic drift works against it. Therefore, large populations are predicted to have lower DNM rates than smaller populations. However, a "perfect" mutation rate (i.e., zero) can never be reached as the lack of DNMs would imply no variation for selection to act on ([Lynch et al. 2016](https://doi.org/10.1038/nrg.2016.104)). **(b)** Germ cell replication differences in human females versus males explains bias in DNM contribution to offspring ([Wood and Goriely 2022](https://doi.org/10.1016/j.fertnstert.2022.10.017)). **(c)** Overview of the DNM rates across vertebrates estimated using trio sequencing showed that fishes tend to have a lower DNM rate compared to mammals, birds, and reptiles ([Bergeron et al. 2023](https://doi.org/10.1038/s41586-023-05752-y)). CC BY-SA 4.0
+
 Food for conceptual thoughts: 
 
 - Can life history differences (e.g., age at first reproduction, oviparity/viviparity, parental care, fecundity, *etc*.) impact the rate of DNMs?
 - For fish, can we also expect a bias towards more mutation with pronounced parental age and a higher contribution from males?
 - Can differences in the germline mutation rate shape genetic diversity and impact speciation?
-
-<kbd>![](./img/fig3.webp)</kbd>
-**Fig.3** De novo mutations **(a)** The drift-barrier hypothesis for mutation rate proposes that natural selection pushes towards molecular perfection, while random genetic drift works against it. Therefore, large populations are predicted to have lower DNM rates than smaller populations. However, a "perfect" mutation rate (i.e., zero) can never be reached as the lack of DNMs would imply no variation for selection to act on ([Lynch et al. 2016](https://doi.org/10.1038/nrg.2016.104)). **(b)** Germ cell replication differences in human females versus males explains bias in DNM contribution to offspring ([Wood and Goriely, 2022](https://doi.org/10.1016/j.fertnstert.2022.10.017)). **(c)** Overview of the DNM rates across vertebrates estimated using trio sequencing showed that fishes tend to have a lower DNM rate compared to mammals, birds, and reptiles ([Bergeron et al. 2023](https://doi.org/10.1038/s41586-023-05752-y)). CC BY-SA 4.0
-
 
 **Literature:**
 
@@ -114,7 +111,7 @@ Sanger sequencing, named after Fred Sanger who developed the method in 1977, is 
 The subsequent Sanger sequencing follows a similar principle as the PCR and gel electrophoresis, but with some important differences: only one primer is used (can be forward or reverse), in addition to normal dNTPs dideoxy nucleotides (ddNTPs) each labeled with a different colored dye are added, and the gel-electrophoresis step is included in the sequencing process. As with the normal PCR, the polymerase copies the template though adding nucleotides. Whenever a ddNTP is added however, the chain is terminated, leading to fragments of the template of different lengths and each with a colored ddNTP at its end. The fragments are sorted by size in a gel similar to the agarose gel and while running through, a laser detects the colors. The fluorescence intensity is reported in a chromatogram, which can be used to verify the detected bases.
 
 <kbd>![](./img/fig6.webp)</kbd>
-**Fig.6** Sanger versus NGS sequencing **(a)** Sanger sequencing **(b)** Schematic differences between Sanger and NGS sequencing. [Khan Academy](www.khanacademy.org), [Young and Gillung, 2019](https://doi.org/10.1111/syen.12406) CC BY-SA 4.0.
+**Fig.6** Sanger versus NGS sequencing **(a)** Sanger sequencing **(b)** Schematic differences between Sanger and NGS sequencing. [Khan Academy](www.khanacademy.org), [Young and Gillung 2019](https://doi.org/10.1111/syen.12406) CC BY-SA 4.0.
 
 
 <a name="schedule"></a>
@@ -125,7 +122,8 @@ The subsequent Sanger sequencing follows a similar principle as the PCR and gel 
 - Introduction (Monday)
 - Research proposal (Monday to Friday)
 - Primer design + ordering (Tuesday or Wednesday)
-- Research proposal hand-in Friday, 08.03, 5 p.m.
+- Research proposal hand-in Friday, March 08, 5 p.m.
+- Online lab-safety course
 
 **Week 2 (March 11-15) with Nico and Daniela**
 
@@ -204,7 +202,10 @@ We will order the primers from a commercial provider where they are chemically s
 
 
 ### PCR (Week 2)
-*TBD*
+
+Before going to the lab, you must have completed and passed the [online lab-safety course](https://evolution.unibas.ch/intra.htm).
+
+*...TBD...*
 
 #### Required software/tools
 
