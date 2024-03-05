@@ -205,15 +205,107 @@ We will order the primers from a commercial provider where they are chemically s
 
 Before going to the lab, you must have completed and passed the [online lab-safety course](https://evolution.unibas.ch/intra.htm).
 
-*...TBD...*
+The following is a rough guideline. Please adjust accordingly to the more specific instructions given by Nico.
 
-#### Required software/tools
+#### General preparation
+Before you start pipetting the reagents, make a plan in your head of all required steps and check that materials and reagents are available. Also check that your equipment (work bench, pipets, centrifuges) are clean and perhaps give them a wipe with 70% EtOH. Protect your hands with gloves when touching pipets/benches/equipment and take the gloves off when going out of the lab or touching your personal belongings (dependent on usage you can wear the gloves more than once to reduce waste). Check that the small trash on the bench is not full, if, empty it. Organize a box of ice and switch on the PCR machine(s). Make sure the PCR program you would like to run is saved on the machine, otherwise copy or program it. 
 
-#### Pipetting scheme
+#### Required materials and reagents
+- Tube racks for larger Falcon tubes, 1.5 ml tubes, and PCR tubes
+- Cold tube rack from -20°C, place on ice
+- Tubes ("Eppis") of the required form/size. For PCR, there are stripes of tubes and plates. Both can be cut according to need.
+- Pipets and pipet tips (blue, yellow, white)
+- Mol. grade H<sub>2</sub>O aliquots
+- Buffer for polymerase (aliquot of usually 5x)
+- MgCl<sub>2</sub> if required. Mg is an essential co-factor for the polymerase but often the necessary concentration is already included in the polymerase buffer)
+- dNTPs (aliquot of 10 mM)
+- Forward primer(s) (10 mM working solution)
+- Reverse primer(s) (10 mM working solution)
+- DNA template/samples
+- Taq Polymerase (Taq is usually stored in a glycerol solution and remains liquid even in the freezer. The enzyme starts to become active even at RT and is sensitive to repeated warming/cooling cycles. It is therefore important to remove the enzyme from the -20°C only immediately before use (before the actual pipetting) and once outside the freezer, keep it in a 2nd cold tube rack from the -20°C. Place the enzyme back at -20°C immediately after use.)
 
-#### Reactions and controls
+All reagents above (except the Taq polymerase), let thaw at room temperature (RT) but place on ice once they are liquid.
 
-#### Master mix
+#### Pipetting scheme, controls, and master mix
+
+Make a pipetting scheme and calculate required volumes. As an example, below are the calculation for one reaction of 25 µl and the steps to prepare a master mix for the positive control as well as the steps to prepare the "master mix" to set up reactions for four regions using four primer pairs in three samples each. Always also include a negative control and one additional aliquot to account for pipetting inaccuracies. The negative control consists of an aliquot of the master mix without the DNA template added to it. It informs about contamination in the master mix. 
+
+**One PCR reaction:**
+
+Reagent      | Stock conc. | Final conc. | Volume (µl)
+:----------  | :---------- | :--------   | :--------
+Buffer 	   | 5x			 | 1x			 | 5
+MgCl<sub>2</sub> | 50 mM	 | 1.5 mM		 | 3
+dNTPs		   | 10 mM		 | 0.2 mM		 | 0.5
+Fwd primer   | 10 µM		 | 250 nM 	 | 0.75
+Rev primer   | 10 µM		 | 250 nM 	 | 0.75
+Polymerase   | 5 U/µl       | 1 U			 | 0.2
+Template DNA | ~ 25 ng/µl   | 			 | 1 µl
+Mol. grade H<sub>2</sub>O   | - | -      | 13.8
+| | | | Final volume: 25 µl
+
+**Master mix for the positive control (MM-PC)** 
+
+A positive control (*i.e.* a DNA template and primers that certainly amplify a fragment) can be included in every PCR run to ensure the reagents work and the master mix was flawless. However, as this adds a lot of extra work and consumption of reagents, it is practically often only included for trouble shooting once a PCR didn't work.
+
+Here we will run one positive control using a primer pair that was previously successfully applied (amplifying the mitochondrial gene CO1), a DNA template that has previously been successfully amplified, and the DNA samples of all family members of the three families (fam_1E, fam_2A, fam_2B) with each seven samples. Also including a negative control and one extra aliquot. These then add up to 24 reactions.
+
+Reagent      | Vol. (µl) one reaction | 24 reactions (µl)
+:----------  | :------------------    | :----------
+Mol. grade H<sub>2</sub>O   | 13.8	 | 331.2
+Buffer 	   | 5							 | 120
+MgCl<sub>2</sub> | 3					 | 72
+dNTPs		   | 0.5						 | 12
+Fwd primer   | 0.75						 | 18
+Rev primer   | 0.75						 | 18
+Polymerase   | 0.2						 | 4.8
+Template DNA | -   						 | -
+Total			|							 | 576 (/24 reactions = 24 µl)
+
+To reduce pipetting steps and because higher volumes can be pipetted with higher accuracy, first prepare a master mix including all reagents except the template DNA. To further minimize pipetting errors add the reagents in the order H<sub>2</sub>O > buffer > MgCl<sub>2</sub> > dNTPs > primers (fwd and rev) > polymerase. Polymerase is usually stored in a viscous glycerol solution. To avoid that polymerase sticks to the outside of the pipet tip, pipet from the surface without stickig the whole tip to the bottom of the tube. 
+The master mix is gently mixed by pipetting up and down. Briefly spin down in case liquid is at the upper part of the tube. Dispense the master mix to 23 PCR reaction tubes (each 24 µl). Subsequently add the template DNA in each tube. All steps are performed on ice!
+
+
+**Reactions for three samples + negative control + additional aliquot**
+
+Reagent      | Vol. (µl) one reaction | Five reactions (µl)
+:----------  | :------------------    | :----------
+Mol. grade H<sub>2</sub>O   | 13.8	 | 69
+Buffer 	   | 5							 | 25
+MgCl<sub>2</sub> | 3					 | 15
+dNTPs		   | 0.5						 | 2.5
+Fwd primer   | 0.75						 | 3.75
+Rev primer   | 0.75						 | 3.75
+Polymerase   | 0.2						 | 1
+Template DNA | -   						 | -
+Total			|							 | 120
+
+**Master mix 1 (MM 1) for the three samples (+ neg. control + extra aliquot) and four primer pairs** 
+
+Reagent      | Vol. (µl) five reactions | x 4 primer pairs (µl)
+:----------  | :------------------    	| :----------
+Mol. grade H<sub>2</sub>O | 69 			| 345
+Buffer 	   | 25 							| 125
+MgCl<sub>2</sub> | 15						| 75
+dNTPs		   | 2.5							| 12.5
+Fwd primer   | - 							| -
+Rev primer   | - 							| -
+Polymerase   | 1 							| 5
+Total			|							   | 562.5
+
+**Master mix 2 (MM 2) for the three samples (+ neg. control + extra aliquot) and one primer pair** 
+
+This has to be set up four times for each primer pair.
+
+Reagent      | Vol. (µl) 
+:----------  | :---------- 	
+MM 1 (/5)		| 112.5
+Fwd primer   | 3.75							
+Rev primer   | 3.75							
+Total			| 120						   
+
+<kbd>![](./img/fig8.webp)</kbd>
+**Fig.6** Pipetting schemes **(a)** Pipetting scheme for the positive control including one primer pair and 22 different DNA samples (Three families of seven (mother, father, five offspring, see (d)) and one positive control DNA sample. For illustrative purposes, the addition of the family template DNA is not shown. **(b)** Pipetting scheme for MM 1 (all reagents except primer pairs and template DNA) **(c)** Pipetting scheme for MM 2. MM 1 is distributed to four new reaction tubes and primer pairs are added. MM2 is distributed to PCR reaction tubes. **(d)** Template DNA from one family (mother, father, five offspring) is added to the PCR tubes. For all the primer pairs, the mother and father will be tested. From the offspring, only the sample having the DNM at the respective site for which the primer was designed will be tested. For illustrative purposes, only the addition of family template DNA to one primer pair is shown. 
 
 #### PCR cycle
 
