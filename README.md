@@ -198,7 +198,7 @@ Primer design tools such as [NCBI primer blast](https://www.ncbi.nlm.nih.gov/too
 <kbd>![](./img/fig7.webp)</kbd>
 **Fig.5** Primer design. **(a)**  Based on the genomic sequence information of the reference, primers are designed around the potential DNM site. **(b)** Both, forward and reverse primers are ordered. CC BY-SA 4.0
 
-We will order the primers from a commercial provider where they are chemically synthesized. Take care that both sequences are ordered in the 5' to 3' direction. To get the reverse complement sequence, [this tool](https://www.bioinformatics.org/sms/rev_comp.html) can be used. Once the primers arrive, they are usually lyophilized (freeze-dried) and need to be resuspended in molecular grade H<sub>2</sub>O or TE-buffer to a stock solution of 100 µM. Before opening the tubes, centrifuge them briefly to make sure all lyophilized primer is at the bottom (and not at the lid!). Then prepare the master stock solution according to the instructions shipped with the primers. From the stock solution, make a 10 µM working-stock (10 µl stock + 90 µl molecular grade H<sub>2</sub>O).
+We will order the primers from a commercial provider where they are chemically synthesized. Take care that both sequences are ordered in the 5' to 3' direction. To get the reverse complement sequence, [this tool](https://www.bioinformatics.org/sms/rev_comp.html) can be used. Once the primers arrive, they are usually lyophilized (freeze-dried) and need to be resuspended in molecular grade H<sub>2</sub>O or TE-buffer to a stock solution of 100 µM. Before opening the tubes, centrifuge them briefly to make sure all lyophilized primer is at the bottom (and not at the lid!). Then prepare the stock solution according to the instructions shipped with the primers. From the stock solution, make a 10 µM working-solution (10 µl stock + 90 µl molecular grade H<sub>2</sub>O). Store dry primer, stock solution, and working-solution at -20°C.
 
 
 ### PCR (Week 2)
@@ -221,7 +221,7 @@ Before you start pipetting the reagents, make a plan in your head of all require
 - dNTPs (aliquot of 10 mM)
 - Forward primer(s) (10 mM working solution)
 - Reverse primer(s) (10 mM working solution)
-- DNA template/samples
+- DNA template/samples (here: aliquots of > 10 ng/µl in 50 µl volume)
 - Taq Polymerase (Taq is usually stored in a glycerol solution and remains liquid even in the freezer. The enzyme starts to become active even at RT and is sensitive to repeated warming/cooling cycles. It is therefore important to remove the enzyme from the -20°C only immediately before use (before the actual pipetting) and once outside the freezer, keep it in a 2nd cold tube rack from the -20°C. Place the enzyme back at -20°C immediately after use.)
 
 All reagents above (except the Taq polymerase), let thaw at room temperature (RT) but place on ice once they are liquid.
@@ -234,31 +234,31 @@ Make a pipetting scheme and calculate required volumes. As an example, below are
 
 Reagent      | Stock conc. | Final conc. | Volume (µl)
 :----------  | :---------- | :--------   | :--------
-Buffer 	   | 5x			 | 1x			 | 5
-MgCl<sub>2</sub> | 50 mM	 | 1.5 mM		 | 3
-dNTPs		   | 10 mM		 | 0.2 mM		 | 0.5
+Buffer 	   | 10x			 | 1x			 | 2.5
+MgCl<sub>2</sub> | 25 mM	 | 1.5 mM		 | 6
+dNTPs		   | 10 mM		 | 0.2 mM     | 0.5
 Fwd primer   | 10 µM		 | 250 nM 	 | 0.75
 Rev primer   | 10 µM		 | 250 nM 	 | 0.75
-Polymerase   | 5 U/µl       | 1 U			 | 0.2
-Template DNA | ~ 25 ng/µl   | 			 | 1 µl
-Mol. grade H<sub>2</sub>O   | - | -      | 13.8
+Polymerase   | 1 U/µl 		 | 0.05 U	    | 0.25
+Template DNA | ~ 25 ng/µl   | 			 | 1
+Mol. grade H<sub>2</sub>O   | - | -      | 13.25
 | | | | Final volume: 25 µl
 
 **Master mix for the positive control (MM-PC)** 
 
 A positive control (*i.e.* a DNA template and primers that certainly amplify a fragment) can be included in every PCR run to ensure the reagents work and the master mix was flawless. However, as this adds a lot of extra work and consumption of reagents, it is practically often only included for trouble shooting once a PCR didn't work.
 
-Here we will run one positive control using a primer pair that was previously successfully applied (amplifying the mitochondrial gene CO1), a DNA template that has previously been successfully amplified, and the DNA samples of all family members of the three families (fam_1E, fam_2A, fam_2B) with each seven samples. Also including a negative control and one extra aliquot. These then add up to 24 reactions.
+Here we will run one positive control using a universal primer pair that was previously successfully used (Fwd. primer "HCO 2198" and rev. primer "LCO 1490", amplifying a 710 bp fragment of a highly conserved regions of the mitochondrial gene CO1), a DNA template that has previously been successfully amplified, and the DNA samples of all family members of the three families (fam_1E, fam_2A, fam_2B) with each seven samples. Also including a negative control and one extra aliquot. These then add up to 24 reactions.
 
 Reagent      | Vol. (µl) one reaction | 24 reactions (µl)
 :----------  | :------------------    | :----------
-Mol. grade H<sub>2</sub>O   | 13.8	 | 331.2
-Buffer 	   | 5							 | 120
-MgCl<sub>2</sub> | 3					 | 72
+Mol. grade H<sub>2</sub>O   | 13.25	 | 318
+Buffer 	   | 2.5						 | 60
+MgCl<sub>2</sub> | 6					 | 144
 dNTPs		   | 0.5						 | 12
 Fwd primer   | 0.75						 | 18
 Rev primer   | 0.75						 | 18
-Polymerase   | 0.2						 | 4.8
+Polymerase   | 0.25						 | 6
 Template DNA | -   						 | -
 Total			|							 | 576 (/24 reactions = 24 µl)
 
@@ -266,32 +266,32 @@ To reduce pipetting steps and because higher volumes can be pipetted with higher
 The master mix is gently mixed by pipetting up and down. Briefly spin down in case liquid is at the upper part of the tube. Dispense the master mix to 23 PCR reaction tubes (each 24 µl). Subsequently add the template DNA in each tube. All steps are performed on ice!
 
 
-**Reactions for three samples + negative control + additional aliquot**
+**Reactions for three samples (mum, dad, offspring with DNM) + negative control + additional aliquot**
 
 Reagent      | Vol. (µl) one reaction | Five reactions (µl)
 :----------  | :------------------    | :----------
-Mol. grade H<sub>2</sub>O   | 13.8	 | 69
-Buffer 	   | 5							 | 25
-MgCl<sub>2</sub> | 3					 | 15
+Mol. grade H<sub>2</sub>O   | 13.25	 | 66.25
+Buffer 	   | 2.5						 | 12.5
+MgCl<sub>2</sub> | 6					 | 30
 dNTPs		   | 0.5						 | 2.5
 Fwd primer   | 0.75						 | 3.75
 Rev primer   | 0.75						 | 3.75
-Polymerase   | 0.2						 | 1
+Polymerase   | 0.25						 | 1.25
 Template DNA | -   						 | -
-Total			|							 | 120
+Total			|							 | 120 (/5 reactions = 24 µl)
 
 **Master mix 1 (MM 1) for the three samples (+ neg. control + extra aliquot) and four primer pairs** 
 
 Reagent      | Vol. (µl) five reactions | x 4 primer pairs (µl)
 :----------  | :------------------    	| :----------
-Mol. grade H<sub>2</sub>O | 69 			| 345
-Buffer 	   | 25 							| 125
-MgCl<sub>2</sub> | 15						| 75
+Mol. grade H<sub>2</sub>O | 66.25 		| 265
+Buffer 	   | 12.5 						| 50
+MgCl<sub>2</sub> | 30						| 120
 dNTPs		   | 2.5							| 12.5
 Fwd primer   | - 							| -
 Rev primer   | - 							| -
-Polymerase   | 1 							| 5
-Total			|							   | 562.5
+Polymerase   | 1 							| 4
+Total			|							   | 451.5 ((/4 primer)/5 reactions)=22.5 µl)
 
 **Master mix 2 (MM 2) for the three samples (+ neg. control + extra aliquot) and one primer pair** 
 
@@ -299,20 +299,71 @@ This has to be set up four times for each primer pair.
 
 Reagent      | Vol. (µl) 
 :----------  | :---------- 	
-MM 1 (/5)		| 112.5
-Fwd primer   | 3.75							
-Rev primer   | 3.75							
-Total			| 120						   
+MM 1 (/5 samples) | 90.3
+Fwd primer   	     | 3.75
+Rev primer   		  | 3.75	
+Total			     | 120						   
 
 <kbd>![](./img/fig8.webp)</kbd>
-**Fig.6** Pipetting schemes **(a)** Pipetting scheme for the positive control including one primer pair and 22 different DNA samples (Three families of seven (mother, father, five offspring, see (d)) and one positive control DNA sample. For illustrative purposes, the addition of the family template DNA is not shown. **(b)** Pipetting scheme for MM 1 (all reagents except primer pairs and template DNA) **(c)** Pipetting scheme for MM 2. MM 1 is distributed to four new reaction tubes and primer pairs are added. MM2 is distributed to PCR reaction tubes. **(d)** Template DNA from one family (mother, father, five offspring) is added to the PCR tubes. For all the primer pairs, the mother and father will be tested. From the offspring, only the sample having the DNM at the respective site for which the primer was designed will be tested. For illustrative purposes, only the addition of family template DNA to one primer pair is shown. 
+**Fig.6** Pipetting schemes **(a)** Pipetting scheme for the positive control including one primer pair and 22 different DNA samples (Three families of seven (mother, father, five offspring, see (d)) and one positive control DNA sample. For illustrative purposes, the addition of the family template DNA is not shown. **(b)** Pipetting scheme for MM 1 (all reagents except primer pairs and template DNA) **(c)** Pipetting scheme for MM 2. MM 1 is distributed to four new reaction tubes and primer pairs are added. MM2 is distributed to PCR reaction tubes. **(d)** Template DNA from one family (mother, father, five offspring) is added as the last step to the PCR tubes. For all the primer pairs, the mother and father will be tested. From the offspring, only the sample having the DNM at the respective site for which the primer was designed will be tested. For illustrative purposes, only the addition of family template DNA to one primer pair is shown. CC BY-SA 4.0
 
 #### PCR cycle
 
+During each PCR cycle (template denaturation, primer annealing, and primer extension) the fragment of interest is amplified to about double the amount. Each stage of the cycle should be optimized in terms of time and temperature for each template and primer pair combination. 
+
+Our primer have a melting temperature (Tm) range of 55.6 - 60.8°C (the temperature at which half of the double-stranded DNA is changed to single-stranded). Ideally, the annealing temperature of each PCR cycle would correspond to roughly the Tm of the primer pair. Too low annealing temperatures can cause unspecific binding and amplification of unwanted products while a too high temperature prevents optimal bindig of the primers and hampers amplification.
+
+To determine the optimal annealing temperature, a temperature gradient PCR is often used (a gradient of different temperatures in the PCR machine). Another protocol is the touchdown PCR, wehere the initial annealing temperature is above the primer Tm but progressively changes with each cycle to a lower temperature.
+
+The extension time needs to be adjusted regarding the length of the amplified product. A general rule of thumb is that the polymerase amplifies about 1 kb per minute. The products we intend to amplify are all below 1 kb, so 1 minute extension time should be sufficient and could even be shortened.
+
+**A typical PCR cycle program**
+
+As initial denaturation step to separate the double-stranded template DNA is added before the PCR cycles, and a final extension step follows the last PCR cycle to allow for synthesis of unfinished products. Each cycle is repeated 25 to 35 times, dependent upon the amount of DNA template and the desired yield of PCR product.
+
+Cycles | 	Step   	| Temperature	 | Time
+:----- | :--------  | :---------- | :----------
+1x | Denaturation | 94°C 		| 2 min
+   |    |   |  
+30x | Denaturation | 94°C 		| 30 sec
+    | Annealing	  | 55°C		| 30 sec
+    | Extension	  | 72°C		| 1 min
+    |    |   |  
+1x | Extension	  | 72°C 		| 4 min
+1x | Storage		  | 4-12°C	| infinity
+
+A touchdown PCR program
+
+Cycles | 	Step   	| Temperature	 | Time
+:----- | :--------  | :---------- | :----------
+1x | Denaturation | 94°C 		| 2 min
+   |    |   |  
+10x | Denaturation | 94°C 		| 30 sec
+    | Annealing	  | 65°C (-1°C/cycle) | 30 sec
+    | Extension	  | 72°C		| 1 min
+    |    |   |  
+20x | Denaturation | 94°C 		| 30 sec
+    | Annealing	  | 55°C     | 30 sec
+    | Extension	  | 72°C		| 1 min 
+    |    |   |     
+1x | Extension	  | 72°C 		| 4 min
+1x | Storage		  | 4-12°C	| infinity
+
+
+
 #### Agarose gel
+
+To analyze the success of the PCR, an agarose gel electrophoresis separating the DNA products based on size can be used. To separate smaller fragments, a higher concentration of agarose is used.
+
+For a standard 1% agarose gel, 1 g agarose in 100 ml 1x Tris-acetate-EDTA (TAE) buffer is used. The volume and concentration needs to be adjusted according to the size of the gel chamber and fragment length (e.g., 1.5% agarose for fragments 100 - 1000 bp). A fluorescent nucleic acid dye is added to the gel, intercalating with the DNA and making the PCR product visible under UV-light. 
+
+Once the PCR product (1-2 µl) and a size standard (e.g., GeneRuler 100 bp) are applied to the pockets of the gel, a constant voltage of 5-6 V per cm (~90 V for smaller gels) for ~30 min induces migration of DNA to the plus-pole. Adjust voltage and time according to gel chamber.
+
+Analyze in UV-light chamber.
 
 #### PCR clean-up
 
+Prior to Sanger sequencing, the amplified PCR product should be cleaned in order to remove unincorporated dNTPs, enzymes, unbound primers, and other reagents. Several methods such as gel-purification, or purification using columns, beads, or enzymes are available. The exact method depends on the downstream application, the amount of samples to clean, and reagent availability.
 
 ### Sanger sequencing, sequence analyses, calculation of false positive rates (Week 3)
 
