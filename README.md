@@ -5,7 +5,10 @@
 [Background and literature](#background-and-literature)  
 [The project: verification of DNMs using Sanger sequencing](#the-project)
 [Schedule](#schedule)  
-[Practical steps](#practical-steps)  
+[Practical steps](#practical-steps)
+	[Primer design and ordering](#primer) 
+	[PCR](#pcr)
+	[Sanger sequencing](#sanger)
 
 <a name="abstract"></a>
 ## Abstract
@@ -148,6 +151,7 @@ The subsequent Sanger sequencing follows a similar principle as the PCR and gel 
 <a name="practical-steps"></a>
 ## Practical steps
 
+<a name="primer"></a>
 ### Primer design and ordering (Week 1)
 
 #### Data (distributed on hard drive)
@@ -200,7 +204,7 @@ Primer design tools such as [NCBI primer blast](https://www.ncbi.nlm.nih.gov/too
 
 We will order the primers from a commercial provider where they are chemically synthesized. Take care that both sequences are ordered in the 5' to 3' direction. To get the reverse complement sequence, [this tool](https://www.bioinformatics.org/sms/rev_comp.html) can be used. Once the primers arrive, they are usually lyophilized (freeze-dried) and need to be resuspended in molecular grade H<sub>2</sub>O or TE-buffer to a stock solution of 100 µM. Before opening the tubes, centrifuge them briefly to make sure all lyophilized primer is at the bottom (and not at the lid!). Then prepare the stock solution according to the instructions shipped with the primers. From the stock solution, make a 10 µM working-solution (10 µl stock + 90 µl molecular grade H<sub>2</sub>O). Store dry primer, stock solution, and working-solution at -20°C.
 
-
+<a name="pcr"></a>
 ### PCR (Week 2)
 
 Before going to the lab, you must have completed and passed the [online lab-safety course](https://evolution.unibas.ch/intra.htm).
@@ -365,6 +369,7 @@ Analyze in UV-light chamber.
 
 Prior to Sanger sequencing, the amplified PCR product should be cleaned in order to remove unincorporated dNTPs, enzymes, unbound primers, and other reagents. Several methods such as gel-purification, or purification using columns, beads, or enzymes are available. The exact method depends on the downstream application, the amount of samples to clean, and reagent availability.
 
+<a name="sanger"></a>
 ### Sanger sequencing, sequence analyses, calculation of false positive rates (Week 3)
 
 *TBD*
