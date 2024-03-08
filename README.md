@@ -8,7 +8,8 @@
 [Practical steps](#practical-steps)  
 	- [Primer design and ordering](#primer)    
 	- [PCR](#pcr)  
-	- [Sanger sequencing](#sanger)
+	- [Sanger sequencing](#sanger)  
+[Data analysis](#analysis)  
 
 <a name="abstract"></a>
 ## Abstract
@@ -139,7 +140,7 @@ The subsequent Sanger sequencing follows a similar principle as the PCR and gel 
 **Week 3 (March 18-23)**
 
 - Sanger sequencing (with Nico)
-- Analyses of electropherograms
+- Analyses of chromatograms
 - Calculation of false positive rates
 
 **Week 4 (March 25/26 and April 2-4)**
@@ -200,7 +201,7 @@ Based on the extracted sequence information, design two primer pairs per site of
 Primer design tools such as [NCBI primer blast](https://www.ncbi.nlm.nih.gov/tools/primer-blast/) or [Primer3](https://primer3.ut.ee/) / [Primer3Plus](https://www.primer3plus.com/index.html) can help to pick the right sequences. However, always check the suggested primers to conform as much as possible with the characteristics above. If necessary, length and position can be adjusted and primers tested again using the same tools.
 
 <kbd>![](./img/fig7.webp)</kbd>
-**Fig.5** Primer design. **(a)**  Based on the genomic sequence information of the reference, primers are designed around the potential DNM site. **(b)** Both, forward and reverse primers are ordered. CC BY-SA 4.0
+**Fig.7** Primer design. **(a)**  Based on the genomic sequence information of the reference, primers are designed around the potential DNM site. **(b)** Both, forward and reverse primers are ordered. CC BY-SA 4.0
 
 We will order the primers from a commercial provider where they are chemically synthesized. Take care that both sequences are ordered in the 5' to 3' direction. To get the reverse complement sequence, [this tool](https://www.bioinformatics.org/sms/rev_comp.html) can be used. Once the primers arrive, they are usually lyophilized (freeze-dried) and need to be resuspended in molecular grade H<sub>2</sub>O or TE-buffer to a stock solution of 100 µM. Before opening the tubes, centrifuge them briefly to make sure all lyophilized primer is at the bottom (and not at the lid!). Then prepare the stock solution according to the instructions shipped with the primers. From the stock solution, make a 10 µM working-solution (10 µl stock + 90 µl molecular grade H<sub>2</sub>O). Store dry primer, stock solution, and working-solution at -20°C.
 
@@ -309,7 +310,7 @@ Rev primer   		  | 3.75
 Total			     | 120						   
 
 <kbd>![](./img/fig8.webp)</kbd>
-**Fig.6** Pipetting schemes **(a)** Pipetting scheme for the positive control including one primer pair and 22 different DNA samples (Three families of seven (mother, father, five offspring, see (d)) and one positive control DNA sample. For illustrative purposes, the addition of the family template DNA is not shown. **(b)** Pipetting scheme for MM 1 (all reagents except primer pairs and template DNA) **(c)** Pipetting scheme for MM 2. MM 1 is distributed to four new reaction tubes and primer pairs are added. MM2 is distributed to PCR reaction tubes. **(d)** Template DNA from one family (mother, father, five offspring) is added as the last step to the PCR tubes. For all the primer pairs, the mother and father will be tested. From the offspring, only the sample having the DNM at the respective site for which the primer was designed will be tested. For illustrative purposes, only the addition of family template DNA to one primer pair is shown. CC BY-SA 4.0
+**Fig.8** Pipetting schemes **(a)** Pipetting scheme for the positive control including one primer pair and 22 different DNA samples (Three families of seven (mother, father, five offspring, see (d)) and one positive control DNA sample. For illustrative purposes, the addition of the family template DNA is not shown. **(b)** Pipetting scheme for MM 1 (all reagents except primer pairs and template DNA) **(c)** Pipetting scheme for MM 2. MM 1 is distributed to four new reaction tubes and primer pairs are added. MM2 is distributed to PCR reaction tubes. **(d)** Template DNA from one family (mother, father, five offspring) is added as the last step to the PCR tubes. For all the primer pairs, the mother and father will be tested. From the offspring, only the sample having the DNM at the respective site for which the primer was designed will be tested. For illustrative purposes, only the addition of family template DNA to one primer pair is shown. CC BY-SA 4.0
 
 #### PCR cycle
 
@@ -353,8 +354,6 @@ Cycles | 	Step   	| Temperature	 | Time
 1x | Final extension	  | 72°C 		| 4 min
 1x | Storage		  | 4-12°C	| infinity
 
-
-
 #### Agarose gel
 
 To analyze the success of the PCR, an agarose gel electrophoresis separating the DNA products based on size can be used. To separate smaller fragments, a higher concentration of agarose is used.
@@ -370,11 +369,38 @@ Analyze in UV-light chamber.
 Prior to Sanger sequencing, the amplified PCR product should be cleaned in order to remove unincorporated dNTPs, enzymes, unbound primers, and other reagents. Several methods such as gel-purification, or purification using columns, beads, or enzymes are available. The exact method depends on the downstream application, the amount of samples to clean, and reagent availability.
 
 <a name="sanger"></a>
-### Sanger sequencing, sequence analyses, calculation of false positive rates (Week 3)
+### Sanger sequencing (Week 3)
 
-*TBD*
+#### Sanger sequencing
+
+*For theory on Sanger sequencing see above. The methodological details will depend on whether we can sequence in-house or not. If not, we will use a commercial provider for Sanger sequencing.*
 
 
+<a name="analysis"></a>
+### Data analyses (Week 3-4)
+
+#### Sanger sequencing chromatograms 
+**Required software** 
+
+DNA sequencing chromatograms (trace files) show the intensity of fluorescence at each sequenced site. There are free and paid programs to view these files. For example:
+
+- [4peaks](https://nucleobytes.com/4peaks/) (mac only, free)
+- [List](https://www.genewiz.com/en-GB/Public/Resources/Tools-for-Viewing-Sequencing-Data/) of other tools
+
+**Analyses** 
+
+The quality of the sequence is usually lower at the beginning and end of the sequence. Choose your sequence primer (forward or reverse) so that the position of the potential DNM lies not in the first 50 bp. 
+
+The site of the potential DNM is compared between parents and offspring. Parents should show a clean homozygous peak for the reference allele, while the offspring should show a clear heterozygous peak for the reference and alternative allele.
+
+<kbd>![](./img/fig9.webp)</kbd>
+**Fig.9** Chromatograms from a Sanger sequencing run. **(a)** Quality scores across a sequencing run with low quality at the beginning and towards the end of the sequence. **(b)** Example chromatograms of a successfully verified DNM with the parents having one clean and high peak for T (homozygous T/T) and the offspring having two smaller peaks for C and T (heterozygous C/T). CC BY-SA 4.0
+
+### Calculation of false positive rates 
+   
+*...*
+*TBD*  
+*...*
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
