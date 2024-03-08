@@ -5,10 +5,10 @@
 [Background and literature](#background-and-literature)  
 [The project: verification of DNMs using Sanger sequencing](#the-project)
 [Schedule](#schedule)  
-[Practical steps](#practical-steps)
-	[Primer design and ordering](#primer) 
-	[PCR](#pcr)
-	[Sanger sequencing](#sanger)
+[Practical steps](#practical-steps)  
+	- [Primer design and ordering](#primer)    
+	- [PCR](#pcr)  
+	- [Sanger sequencing](#sanger)
 
 <a name="abstract"></a>
 ## Abstract
