@@ -326,8 +326,8 @@ Cycles | 	Step   	| Temperature	 | Time
 1x | Denaturation | 94°C 		| 2 min
    |    |   |  
 30x | Denaturation | 94°C 		| 30 sec
- -  | Annealing	  | 55°C		| 30 sec
- -  | Extension	  | 72°C		| 1 min
+ T  | Annealing	  | 55°C		| 30 sec
+ .  | Extension	  | 72°C		| 1 min
    |    |   |  
 1x | Extension	  | 72°C 		| 4 min
 1x | Storage		  | 4-12°C	| infinity
@@ -339,12 +339,12 @@ Cycles | 	Step   	| Temperature	 | Time
 1x | Denaturation | 94°C 		| 2 min
    |    |   |  
 10x | Denaturation | 94°C 		| 30 sec
- -  | Annealing	  | 65°C (-1°C/cycle) | 30 sec
- -  | Extension	  | 72°C		| 1 min
+ .  | Annealing	  | 65°C (-1°C/cycle) | 30 sec
+ .  | Extension	  | 72°C		| 1 min
    |    |   |  
 20x | Denaturation | 94°C 		| 30 sec
- -  | Annealing	  | 55°C     | 30 sec
- -  | Extension	  | 72°C		| 1 min 
+ .  | Annealing	  | 55°C     | 30 sec
+ .  | Extension	  | 72°C		| 1 min 
    |    |   |   
 1x | Extension	  | 72°C 		| 4 min
 1x | Storage		  | 4-12°C	| infinity
