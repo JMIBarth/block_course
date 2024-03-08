@@ -356,7 +356,7 @@ Cycles | 	Step   	| Temperature	 | Time
 
 #### Agarose gel
 
-To analyze the success of the PCR, an agarose gel electrophoresis separating the DNA products based on size can be used. To separate smaller fragments, a higher concentration of agarose is used.
+To analyze the products amplified by PCR, an agarose gel electrophoresis separating the DNA based on size can be used. To separate smaller fragments, a higher concentration of agarose is used.
 
 For a standard 1% agarose gel, 1 g agarose in 100 ml 1x Tris-acetate-EDTA (TAE) buffer is used. The volume and concentration needs to be adjusted according to the size of the gel chamber and fragment length (e.g., 1.5% agarose for fragments 100 - 1000 bp). A fluorescent nucleic acid dye is added to the gel, intercalating with the DNA and making the PCR product visible under UV-light. 
 
@@ -366,7 +366,7 @@ Analyze in UV-light chamber.
 
 #### PCR clean-up
 
-Prior to Sanger sequencing, the amplified PCR product should be cleaned in order to remove unincorporated dNTPs, enzymes, unbound primers, and other reagents. Several methods such as gel-purification, or purification using columns, beads, or enzymes are available. The exact method depends on the downstream application, the amount of samples to clean, and reagent availability.
+Prior to Sanger sequencing, the amplified PCR product are cleaned in order to remove unincorporated dNTPs, enzymes, unbound primers, and other reagents. Several methods such as gel-purification, or purification using columns, beads, or enzymes are available. The exact method depends on the downstream application, the amount of PCR product and number of samples to clean, and reagent availability.
 
 <a name="sanger"></a>
 ### Sanger sequencing (Week 3)
@@ -389,7 +389,7 @@ DNA sequencing chromatograms (trace files) show the intensity of fluorescence at
 
 **Analyses** 
 
-The quality of the sequence is usually lower at the beginning and end of the sequence. Choose your sequence primer (forward or reverse) so that the position of the potential DNM lies not in the first 50 bp. 
+The quality of the sequence is usually lower at the beginning and end of the sequence. Choose the sequence primer (forward or reverse) so that the position of the potential DNM does not fall within the first 50 bp. 
 
 The site of the potential DNM is compared between parents and offspring. Parents should show a clean homozygous peak for the reference allele, while the offspring should show a clear heterozygous peak for the reference and alternative allele.
 
