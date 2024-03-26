@@ -400,16 +400,27 @@ The site of the potential DNM is compared between parents and offspring. Parents
    
 To assess the accuracy with which DNMs can be identified from WGS, to gain trust and confidence in the detection method, and to potentially correct the obtained *de novo* mutation rates, calculations of the false negative (FNR) and false detection rate (FDR) can be conducted (see 'Parent-offspring sequencing for detection of DNMs' in [Background and literature](#background-and-literature) above).
 
-The FNR has been calculated perviously using $FNR=FN/(TP+FN)$, where $FN$ is the number of false negatives and $TP$ is the number of true positives. 
+The FNR has been calculated perviously based on simulations using 
 
-The validation of DNMs to identify the FDR was achieved through Sanger sequencing. The FDR is calculated as $FDR=FP/(TP+FP)$ with $FP$ being the candidate DNMs successfully amplified but failing the Sanger validation and $TP$ being the DNMs validated by Sanger sequencing.
+```math
+FNR=FN/(TP+FN)
+```
+
+where $FN$ is the number of false negatives and $TP$ is the number of true positives. 
+
+The validation of DNMs to identify the FDR was achieved through Sanger sequencing. The FDR is calculated as 
+
+```math
+FDR=FP/(TP+FP)
+```
+with $FP$ being the candidate DNMs successfully amplified but failing the Sanger validation and $TP$ being the DNMs validated by Sanger sequencing.
 
 Having identified the FNR and FDR, the mutation rate $µ$ can be calculated as:
 
 ```math
-µ=\frac{{n}_{TP} + ({n}_{FP} \cdot (1-FDR))} {2 \cdot CG \cdot (1-FNR)}
+µ=\frac{{n}_{DNMtrue} + ({n}_{DNMfailed} \cdot (1-FDR))} {2 \cdot CG \cdot (1-FNR)}
 ```
-where $\mathbf{n}_ {TP}$ is the number of all successfully amplified true DNMs, $\mathbf{n}_ {FP}$ is the number of all DNMs not successfully amplified (together the total number of WGS detected DNMs), $CG$ is the number of callable sites (the callable genome), and FDR and FNR are the false negative and false detection rates, respectively.
+where $\mathbf{n}_ {DNMtrue}$ is the number of all successfully amplified true DNMs, $\mathbf{n}_ {DNMfailed}$ is the number of all DNMs not successfully amplified (together the total number of WGS detected DNMs), $CG$ is the number of callable sites (the callable genome), and FDR and FNR are the false negative and false detection rates, respectively.
 
 <kbd>![](./img/fig10.webp)</kbd>
 **Fig.10** Calculating false negative rates (FNR) and false discovery rates (FDR). **(a)** Confusion matrix as a tool to evaluate false negative or false discovery rates. **(b)** Simulations can be used to calculate the FNR. **(c)** Sanger sequencing can be used to identify the FDR. CC BY-SA 4.0
