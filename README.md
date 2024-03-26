@@ -406,14 +406,14 @@ The FNR has been calculated perviously based on simulations using
 FNR=\frac{FN} {(TP+FN)}
 ```
 
-where $FN$ is the number of false negatives and $TP$ is the number of true positives. 
+where $FN$ is the number of false negatives (simulated DNMs that were not detected) and $TP$ is the number of true positives (simulated DNMs successfully detected). 
 
 The validation of DNMs to identify the FDR was achieved through Sanger sequencing. The FDR is calculated as 
 
 ```math
 FDR=\frac{FP} {(TP+FP)}
 ```
-with $FP$ being the candidate DNMs successfully amplified but failing the Sanger validation and $TP$ being the DNMs validated by Sanger sequencing.
+with $FP$ being the number of false positives (candidate DNMs successfully amplified but failing the Sanger validation) and $TP$ being the number of true positives (DNMs detected and successfully validated by Sanger sequencing).
 
 Having identified the FNR and FDR, the mutation rate $µ$ can be calculated as:
 
